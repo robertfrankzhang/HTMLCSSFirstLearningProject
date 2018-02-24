@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"> <!--set width of site-->
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional">
+    <meta name="author" content="Robert Zhang">
+    </menu>
+    <title>Acme Web Design | About</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header><!-- Literally just the header -->
+      <div class="container"><!--id is unique for element, so if styling is just for a single thing, but class is a general format-->
+        <div id="branding">
+          <h1><span class="highlight">Acme</span> Web Design</h1>
+        </div>
+        <nav>
+          <ul><!--unordered list-->
+            <li><a href="index.html">Home</a></li><!--List item-->
+            <li class="current"><a href="about.html">About</a></li><!--List item-->
+            <li><a href="services.html">Services</a></li><!--List item-->
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form> <!-- class="" action="index.html" method="post">-->
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">About Us</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum tortor eget nisi rhoncus euismod. Duis vestibulum dignissim erat, vel aliquet augue ultrices non. Integer congue suscipit nisi vel convallis. Cras lacinia placerat arcu, eu porttitor nisl venenatis quis. Pellentesque volutpat nulla sit amet mi lacinia, sed iaculis lacus posuere. Phasellus nunc neque, ultricies ut faucibus id, venenatis sed odio. Nunc efficitur felis mi, quis aliquet nisi condimentum mollis. Phasellus mollis ac turpis et tincidunt. Morbi et ex at tellus pretium dapibus a vel sem. Integer eleifend cursus purus, non aliquet sem dignissim quis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum tortor eget nisi rhoncus euismod. Duis vestibulum dignissim erat, vel aliquet augue ultrices non. Integer congue suscipit nisi vel convallis. Cras lacinia placerat arcu, eu porttitor nisl venenatis quis. Pellentesque volutpat nulla sit amet mi lacinia, sed iaculis lacus posuere. Phasellus nunc neque, ultricies ut faucibus id, venenatis sed odio. Nunc efficitur felis mi, quis aliquet nisi condimentum mollis. Phasellus mollis ac turpis et tincidunt. Morbi et ex at tellus pretium dapibus a vel sem. Integer eleifend cursus purus, non aliquet sem dignissim quis.
+          </p>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark"><!--Useful to wrap things in divs with certain styles-->
+            <h3>What We Do</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum tortor eget nisi rhoncus euismod. Duis vestibulum dignissim erat, vel aliquet augue ultrices non. Integer congue suscipit nisi vel convallis. Cras lacinia placerat arcu, eu porttitor nisl venenatis quis. Pellentesque volutpat nulla sit amet mi lacinia, sed iaculis lacus posuere. Phasellus nunc neque, ultricies ut faucibus id, venenatis sed odio. Nunc efficitur felis mi, quis aliquet nisi condimentum mollis. </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Acme Web Design, Copyright &copy; 2017</p>
+    </footer>
+  </body>
+</html>
